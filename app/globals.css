@@ -1,2 +1,21 @@
 @import 'tailwindcss';
 
+/**
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-sm: 320px - 480px;
+    --breakpoint-md: 481px - 600px;
+    --breakpoint-lg: 650px;
+    --color-twitter-blue: #1DA1F2;
+    --color-orange-500: #ffa500;
+    --background-image-home: url('../public/bg1.png')
+}*/
+
+@theme {
+    --background-image-home: url('../public/bg.jpg');
+    --background-image-home1: url('../public/bg1.jpg');
+    --background-image-home2: url('../public/bg2.jpg');
+    --background-image-home3: url('../public/bg3.png');
+    --background-image-home4: url('../public/bg.jpg');
+    --background-image-home5: url('../public/bg.jpg');
+}
