@@ -22,7 +22,7 @@ export default function Navbar() {
   };
 
   return(
-    <nav className='bg-black/95 md:rounded-full md:mt-10 md:p-2 z-50 fixed left-1/2 -translate-x-1/2 top-0 h-25 items-center justify-between backdrop-blur-sm  w-11/12 max-w-7xl'>
+    <nav className='bg-black/95 md:rounded-full md:mt-10 md:p-2 z-50 fixed left-1/2 -translate-x-1/2 top-0 h-25 items-center justify-between backdrop-blur-sm  w-full md:w-11/12 md:max-w-7xl'>
       <div className="max-w-7xl mx-auto px-4 sm:px-5 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
