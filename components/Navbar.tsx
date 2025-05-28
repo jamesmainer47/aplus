@@ -5,9 +5,11 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 
+
+
 const links = [
   {name: "Home", url:"/"},
-  {name: "Service", url:"./Service.tsx"},
+  {name: "Services", url:"./Service.tsx"},
   {name: "Destinations", url:"./Destinations.tsx"},
   {name: "About", url:"./About.tsx"},
 ];
@@ -20,14 +22,14 @@ export default function Navbar() {
   };
 
   return(
-    <nav className='bg-black'>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+    <nav className='bg-black/95 md:rounded-full md:mt-10 md:p-2 z-50 fixed left-1/2 -translate-x-1/2 top-0 h-25 items-center justify-between backdrop-blur-sm  w-11/12 max-w-7xl'>
+      <div className="max-w-7xl mx-auto px-4 sm:px-5 lg:px-8">
+        <div className="flex items-center justify-between">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <a className='flex  items-center  bg-gradient-to-b from-blue-200 to-blue-800 text-transparent bg-clip-text uppercase' href="./Home.tsx" >
-                <Image src="/public/favicon.ico" width={50} height={50} alt="" className="mx-2 bg-transparent rounded-full border-x-pink-400 border-y-yellow-400 border-2"/>
-                aplus
+              <a className='flex  items-center text-3xl bg-gradient-to-r from-yellow-500 to-blue-400 text-transparent bg-clip-text uppercase' href="./Home.tsx" >
+                <Image src="/android-chrome-512x512.png" width={100} height={100} alt="" className="mx-2 w-20 h-20 p-1 items-center justify-center rounded-full border-x-blue-400 border-y-yellow-200 border-2"/>
+                aplus 
               </a>
               
             </div>
@@ -37,7 +39,7 @@ export default function Navbar() {
               <ul className='flex-column block md:flex mt-2'>
                 {links.map((el) => (
                   <li key={el.name}>
-                    <Link href={el.url} className='text-white md:mx-3 my-2 py-1 relative before:content-[""] before:absolute before:w-0 hover:before:w-full before:h-1 before:bg-blue-600 left-0 before:duration-500 before:bottom-0  hover:bg-transparent rounded-lg'>{el.name}</Link>
+                    <Link href={el.url} className='text-[20px] text-white md:mx-3 my-2 py-1 relative before:content-[""] before:absolute before:w-0 hover:before:w-full before:h-1 before:bg-blue-600 left-0 before:duration-500 before:bottom-0  hover:bg-transparent rounded-lg'>{el.name}</Link>
                   </li>  
                 ))}
               </ul>
