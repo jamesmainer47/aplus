@@ -25,7 +25,7 @@ const Hero = () => {
 	};
     
 	return (
-		<div className="h-full bg-black">
+		<div className="h-1/2 bg-black">
 			<Zoom {...zoomInProperties}>
 				{images.map((each, index) => (
 					<div key={index} className="flex justify-center w-full h-full">
