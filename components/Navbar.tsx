@@ -28,7 +28,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <a className='flex  items-center text-3xl bg-gradient-to-r from-yellow-500 to-blue-400 text-transparent bg-clip-text uppercase' href="./Home.tsx" >
-                <Image src="/android-chrome-512x512.png" width={100} height={100} alt="" className="mx-2 w-20 h-20 p-1 items-center justify-center rounded-full border-x-blue-400 border-y-yellow-200 border-2"/>
+                <Image src="/android-chrome-512x512.png" width={100} height={100} alt="" className="mx-2 my-3 md:my-0 w-20 h-20 p-1 items-center justify-center rounded-full border-x-blue-400 border-y-yellow-200 border-2"/>
                 aplus 
               </a>
               
@@ -51,7 +51,7 @@ export default function Navbar() {
             onClick={toggleNavbar}
             >
               {isClick ? (
-                <svg className='h-6 w-6'
+                <svg className='h-9 w-9'
                 xmlns='https://www.w3.org/2000/svg'
                 fill='none'
                 viewBox='0 0 24 24'
@@ -65,7 +65,7 @@ export default function Navbar() {
                   />
                 </svg>
               ): (
-                <svg className='h-6 w-6'
+                <svg className='h-9 w-9'
                 xmlns='https://www.w3.org/2000/svg'
                 fill='none'
                 viewBox='0 0 24 24'

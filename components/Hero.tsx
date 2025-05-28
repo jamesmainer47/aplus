@@ -12,7 +12,6 @@ const Hero = () => {
 		"/bg.jpg",
 		"/bg2.jpg",
 		"/bg3.jpg",
-		"/bg4.jpg",
 		"/bg5.jpg",
 	];
 
@@ -26,11 +25,11 @@ const Hero = () => {
 	};
     
 	return (
-		<div className="h-200">
+		<div className="h-full bg-black">
 			<Zoom {...zoomInProperties}>
 				{images.map((each, index) => (
-					<div key={index} className="flex justify-center w-full">
-						<Image width={1920} height={1080} alt=""
+					<div key={index} className="flex justify-center w-full h-full">
+						<Image width={1920} height={1800} alt=""
 							className="w-full object-cover shadow-xl"
 							src={each}
 						/>
