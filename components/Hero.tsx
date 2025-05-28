@@ -28,7 +28,7 @@ const Hero = () => {
 		<div className="h-1/2 bg-black">
 			<Zoom {...zoomInProperties}>
 				{images.map((each, index) => (
-					<div key={index} className="flex justify-center w-full h-full">
+					<div key={index} className="flex justify-center w-full h-1/2">
 						<Image width={1920} height={1800} alt=""
 							className="w-full object-cover shadow-xl"
 							src={each}
