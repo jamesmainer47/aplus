@@ -3,7 +3,7 @@
 import Header from "./Header";
 import { FaPlaneDeparture, FaBed, FaPlaneArrival, FaPlane } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import { backgrounds.length } from "useEffect";
+import { backgrounds.length };
 
 
 export default function Home(){
