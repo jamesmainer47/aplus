@@ -1,5 +1,4 @@
 "use client";
-#import Link from "next/link"
 import Header from "./Header";
 import { FaPlaneDeparture, FaBed, FaPlaneArrival, FaPlane } from "react-icons/fa";
 import { useEffect, useState } from "react";
