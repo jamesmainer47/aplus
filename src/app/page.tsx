@@ -1,6 +1,4 @@
 "use client";
-#import Chatbot from "@/components/AplusAssistant";
-#import Header from "@/components/Header";
 import Home from "@/components/Home";
 import SectionTwo from "@/components/sectionTwo";
 import Link from "next/link";
