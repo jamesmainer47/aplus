@@ -25,9 +25,9 @@ export default function Footer(){
             <div className="flex flex-col sm:self-center ">
                 <h1 className="headfooter  sm:self-center font-bold text-4xl text-white">Connect</h1>
                 <ul className="flex flex-row gap-10 p-2">
-                    <li className="rounded-full bg-black p-2 hover:bg-blue-700"><Link href="https://wa.me/255714235011"><FaWhatsapp size={50} className="text-green-500"/></Link></li>
-                    <li className="rounded-full bg-black p-2 hover:bg-green-500"><Link href="https://facebook.com/aplus_navigators"><FaFacebook size={50} className="text-blue-700"/></Link></li>
-                    <li className="rounded-full bg-black p-2 hover:bg-blue-700"><Link href="https://instagram.com/aplus_navigators"><FaInstagram size={50} className="text-pink-800"/></Link></li>
+                    <li className="rounded-full bg-white p-2 hover:bg-blue-700"><Link href="https://wa.me/255714235011"><FaWhatsapp size={50} className="text-green-500"/></Link></li>
+                    <li className="rounded-full bg-white p-2 hover:bg-green-500"><Link href="https://facebook.com/aplus_navigators"><FaFacebook size={50} className="text-blue-700"/></Link></li>
+                    <li className="rounded-full bg-white p-2 hover:bg-blue-700"><Link href="https://instagram.com/aplus_navigators"><FaInstagram size={50} className="text-pink-800"/></Link></li>
                 </ul>
             </div>
         </div>  
